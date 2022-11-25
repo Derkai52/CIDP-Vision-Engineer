@@ -1,0 +1,38 @@
+{
+    "image": {
+        "image_orgin": 0,
+        "create_template_mode": false,
+        "minH": 13,
+        "maxH": 46,
+        "minS": 47,
+        "maxS": 254,
+        "minV": 104,
+        "maxV": 255
+    },
+    "detection": {
+        "min_angle": 20,
+        "max_angle": 70,
+        "ming_aspect_ratio": 0.6,
+        "max_aspect_ratio": 1.6,
+        "min_area": 800,
+        "max_area": 5000,
+        "tmpWidth": 100,
+        "tmpHeight": 100,
+        "tmpThreshold": 0.5
+    },
+    "communication": {
+        "bps": 115200,
+        "debug_data_flag": false,
+        "debug_vofa_flag": false
+    },
+    "log": {
+        "log_save_path": "",
+        "log_save_level": "warning",
+        "log_back_count": 30,
+        "log_format": "'%(asctime)s - %(levelname)s: %(message)s'"
+    },
+    "display": null,
+    "other": {
+        "update_doc_name": "update_log.html"
+    }
+}
